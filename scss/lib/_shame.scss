@@ -6,3 +6,21 @@ p > button {
     @extend %btn-blue;
     @extend %btn-large;
 }
+
+// demo-1 for grid.html
+
+.scss-demo {
+    // @include container();
+        > div {
+            @include row();
+                div {
+                @include grid(1);
+                text-align: left;
+            }
+                div > div {
+                    @extend %hero;
+                    padding: 1em 2em;
+                    margin: 0 auto;
+                }
+        }
+}

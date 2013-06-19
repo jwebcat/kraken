@@ -133,20 +133,23 @@ a:hover, a:active {
 
 /*  THE GRID */
 /*  Structure and layout */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\000036}}
-.cfix:before, .cfix:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\000037}}
+.cfix:before, .cfix:after,
+.scss-demo > div:before,
+.scss-demo > div:after {
   display: table;
   content: "";
   *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000311}}
-.cfix:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000312}}
+.cfix:after,
+.scss-demo > div:after {
   clear: both; }
 
 /*  Mobile-first. Single-column layout by default
  *  Container sets the maximum page width. Adjust as needed. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000320}}
 .container {
-  max-width: 80em;
+  max-width: 40em;
   width: 88%;
   margin-left: auto;
   margin-right: auto; }
@@ -155,92 +158,102 @@ a:hover, a:active {
  *  Grid-third, grid-half, and grid-img
  *  provide sub-gridding on smaller screens.  */
 @media (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000332}}
-  .row {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000334}}
+  .row,
+  .scss-demo > div {
     margin-left: -1.515151515152%;
     margin-right: -1.515151515152%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000341}}
   [class^="grid-"],
-  [class*="grid-"] {
+  [class*="grid-"],
+  .scss-demo > div div {
     float: left;
     width: 96.969696969697%;
     margin-left: 1.515151515152%;
     margin-right: 1.515151515152%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000349}}
   .grid-third {
     width: 30.30303030303%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000356}}
   .grid-half,
   .grid-img {
     width: 46.969696969697%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000361}}
   .grid-two-thirds {
     width: 63.636363636364%; }
 
   /*  Reverses order of grid for content choreography */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000367}}
   .grid-flip {
     float: right; } }
 /*  6-column grid  */
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000375}}
-  .grid-1 {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000377}}
+  .scss-demo > div div {
+    float: left;
+    width: 96.969696969697%;
+    margin-left: 1.515151515152%;
+    margin-right: 1.515151515152%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000385}}
+  .grid-1,
+  .scss-demo > div div {
     width: 13.636363636364%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000394}}
   .grid-2,
   .grid-third,
   .grid-img {
     width: 30.30303030303%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003101}}
   .grid-3,
   .grid-half {
     width: 46.969696969697%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003108}}
   .grid-4,
   .grid-two-thirds {
     width: 63.636363636364%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003113}}
   .grid-5 {
     width: 80.30303030303%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003120}}
   .grid-6,
   .grid-full {
     width: 96.969696969697%; }
 
   /*  Offets let you shift grid elements to the right
    *  but stay aligned to the grid. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003128}}
   .offset-1 {
     margin-left: 18.181818181818%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003133}}
   .offset-2 {
     margin-left: 34.848484848485%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003138}}
   .offset-3 {
     margin-left: 51.515151515152%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003143}}
   .offset-4 {
     margin-left: 68.181818181818%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003148}}
   .offset-5 {
     margin-left: 84.848484848485%; } }
 /*  Additional gridding for grid-img on bigger screens.
  *  Adjust as needed. */
 @media (min-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003159}}
   .grid-img {
     width: 13.636363636364%; } }
 /*  TYPOGRAPHY */
@@ -783,6 +796,47 @@ select:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_print\.scss}line{font-family:\0000362}}
   tr, img {
     page-break-inside: avoid; } }
+/* =============================================================
+    HERO
+    Callout and background color styling.
+ * ============================================================= */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/addons\/_hero\.scss}line{font-family:\0000327}}
+.bg {
+  background-color: #f4f4f4;
+  padding-top: 1.52941em;
+  padding-bottom: 1.52941em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/addons\/_hero\.scss}line{font-family:\0000334}}
+.bg-blue {
+  color: white;
+  background-color: #0088cc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/addons\/_hero\.scss}line{font-family:\0000340}}
+.bg-condensed {
+  padding-top: 0.82353em;
+  padding-bottom: 0.82353em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/addons\/_hero\.scss}line{font-family:\0000346}}
+.hero,
+.scss-demo > div div > div {
+  background-color: #f4f4f4;
+  margin-bottom: 1.52941em;
+  padding: 1.52941em;
+  border: 0.07143em solid #e5e5e5;
+  border-radius: 0.23529em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/addons\/_hero\.scss}line{font-family:\0000355}}
+.hero-condensed {
+  padding: 0.82353em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_shame\.scss}line{font-family:\0000316}}
+.scss-demo > div div {
+  text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_shame\.scss}line{font-family:\0000320}}
+.scss-demo > div div > div {
+  padding: 1em 2em;
+  margin: 0 auto; }
+
 /*
 
     KRAKEN.CSS
@@ -1421,14 +1475,14 @@ select:focus {
   padding-top: 1.529411765em;
   padding-bottom: 1.529411765em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003673}}
 .hero {
   background-color: #e5e5e5;
   padding: .470588235em;
   margin-bottom: 1.529411765em;
   border-radius: .235294118em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003679}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003680}}
 .hero-dark {
   background-color: #b8b8b8;
   margin-bottom: 0; }
@@ -1437,7 +1491,7 @@ select:focus {
 /*  Table styling */
 /*  Removes default browser settings
  *  and evens out inconsistencies. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003694}}
 table {
   max-width: 100%;
   border-collapse: collapse;
@@ -1445,7 +1499,7 @@ table {
 
 /*  Sets table width to 100%.
  *  Adds bottom-margin. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003701}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003702}}
 .table {
   width: 100%;
   margin-bottom: 1.529411765em; }
@@ -1453,7 +1507,7 @@ table {
 /*  Adds table cell padding,
  *  aligns text to the left,
  *  and adds a top border to each cell. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003709}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003710}}
 .table th, .table td {
   padding: .470588235em;
   text-align: left;
@@ -1461,125 +1515,125 @@ table {
 
 /*  Sets table header font-weight to bold.
  *  Aligns table header text to the bottom of each cell. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003717}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003718}}
 .table th {
   font-weight: bold;
   vertical-align: bottom; }
 
 /*  Aligns cell text to the top of each cell. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003723}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003724}}
 .table td {
   vertical-align: top; }
 
 /*  Removes the border-top from the first row. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003729}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003730}}
 .table thead:first-child tr th,
 .table thead:first-child tr td {
   border-top: 0; }
 
 /*  Adds border-top between two table-body sections. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003734}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003735}}
 .table tbody + tbody {
   border-top: .142857143em solid #b8b8b8; }
 
 /*  Reduces cell padding */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003740}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003741}}
 .table-condensed th,
 .table-condensed td {
   padding: .470588235em .294117647em; }
 
 /* Adds borders and border-radius. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003745}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003746}}
 .table-bordered {
   border: .071428571em solid #b8b8b8;
   border-collapse: separate;
   *border-collapse: collapsed;
   border-radius: .470588235em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003755}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003756}}
 .table-bordered th + th,
 .table-bordered td + td,
 .table-bordered th + td,
 .table-bordered td + th {
   border-left: .071428571em solid #b8b8b8; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003761}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003762}}
 .table-bordered thead:first-child tr:first-child th,
 .table-bordered tbody:first-child tr:first-child th,
 .table-bordered tbody:first-child tr:first-child td {
   border-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003766}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003767}}
 .table-bordered thead:first-child tr:first-child th:first-child,
 .table-bordered tbody:first-child tr:first-child td:first-child {
   border-radius: .470588235em 0 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003771}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003772}}
 .table-bordered thead:first-child tr:first-child th:last-child,
 .table-bordered tbody:first-child tr:first-child td:last-child {
   border-radius: 0 .470588235em 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003776}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003777}}
 .table-bordered thead:last-child tr:last-child th:first-child,
 .table-bordered tbody:last-child tr:last-child td:first-child {
   border-radius: 0 0 0 .470588235em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003782}}
 .table-bordered thead:last-child tr:last-child th:last-child,
 .table-bordered tbody:last-child tr:last-child td:last-child {
   border-radius: 0 0 .470588235em 0; }
 
 /*  FLOATS & HIDES */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003791}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003792}}
 .text-center {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003795}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003796}}
 .text-right {
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003799}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003800}}
 .text-left {
   text-align: left; }
 
 /*  Spacing */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003806}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003807}}
 .no-space {
   margin: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003811}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003812}}
 .no-space-bottom {
   margin-bottom: 0;
   padding-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003816}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003817}}
 .no-space-top {
   margin-top: 0;
   padding-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003821}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003822}}
 .space-bottom {
   margin-bottom: 2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003825}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003826}}
 .space-bottom-small {
   margin-bottom: .470588235em;
   padding-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003830}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003831}}
 .space-top {
   padding-top: .82352941234em; }
 
 /*  Hides */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003837}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003838}}
 .screen-reader {
   position: absolute;
   top: -9999em;
   left: -9999em; }
 
 /*  Clearfix */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003848}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003849}}
 .group:before, .group:after,
 .container:before, .container:after,
 .row:before, .row:after {
@@ -1587,7 +1641,7 @@ table {
   content: "";
   *zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003856}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003857}}
 .group:after,
 .container:after,
 .row:after {
@@ -1601,7 +1655,7 @@ table {
   /*  Universal selector.
    *  Reset all content to transparent background,
    *  black color, and remove box and text shadows. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003874}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003875}}
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1609,35 +1663,35 @@ table {
     text-shadow: none !important; }
 
   /*  Underline all links */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003882}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003883}}
   a, a:visited {
     text-decoration: underline; }
 
   /*  Show URL after links */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003887}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003888}}
   a[href]:after {
     content: " (" attr(href) ")"; }
 
   /*  Don't show URL for internal links */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003892}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003893}}
   a[href^="#"]:after {
     content: ""; }
 
   /*  Display code and blockquotes with a border.
    *  Avoid page breaks inside the content */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003899}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003900}}
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
   /*  Displayed as a table header row group */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003905}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003906}}
   thead {
     display: table-header-group; }
 
   /*  Avoid inserting a page break inside table rows and images */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003911}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003912}}
   tr,
   img {
     page-break-inside: avoid; }
@@ -1647,13 +1701,13 @@ table {
     margin: 0.5cm; }
 
   /*  Specifies the minimum number of lines to print at the top and bottom of a page. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003921}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003922}}
   p, h1, h2, h3 {
     orphans: 3;
     widows: 3; }
 
   /*  Avoid inserting a page break after headers */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003927}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003928}}
   h1, h2, h3 {
     page-break-after: avoid; } }
 /**
