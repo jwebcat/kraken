@@ -1,167 +1,3 @@
-/**
- * Prism base code highlighter theme using Sass
- *
- * @author @MoOx
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000338}}
-code[class*="language-"], pre[class*="language-"] {
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  font-family: Menlo, Monaco, "Courier New", monospace;
-  font-size: 12px;
-  line-height: 18px;
-  color: #76d9e6;
-  text-shadow: 0 1px 0 black;
-  background: #2f3030; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000364}}
-pre[class*="language-"], :not(pre) > code[class*="language-"] {
-  border-radius: 5px;
-  border: 1px solid #e1e1e8;
-  box-shadow: 1px 1px 0.3em -0.1em black inset; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000371}}
-pre[class*="language-"] {
-  padding: 12px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000378}}
-:not(pre) > code[class*="language-"] {
-  padding: 2px 6px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003102}}
-code[class*="language-"] .namespace, pre[class*="language-"] .namespace {
-  opacity: .7; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003110}}
-code[class*="language-"] .token.comment, code[class*="language-"] .token.prolog, code[class*="language-"] .token.doctype, code[class*="language-"] .token.cdata, pre[class*="language-"] .token.comment, pre[class*="language-"] .token.prolog, pre[class*="language-"] .token.doctype, pre[class*="language-"] .token.cdata {
-  color: #6f705e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003117}}
-code[class*="language-"] .token.null, code[class*="language-"] .token.operator, code[class*="language-"] .token.boolean, code[class*="language-"] .token.number, pre[class*="language-"] .token.null, pre[class*="language-"] .token.operator, pre[class*="language-"] .token.boolean, pre[class*="language-"] .token.number {
-  color: #a77afe; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003122}}
-code[class*="language-"] .token.attr-name, code[class*="language-"] .token.string, pre[class*="language-"] .token.attr-name, pre[class*="language-"] .token.string {
-  color: #e6d06c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003129}}
-code[class*="language-"] .token.entity, code[class*="language-"] .token.url, .language-css code[class*="language-"] .token.string, .style code[class*="language-"] .token.string, pre[class*="language-"] .token.entity, pre[class*="language-"] .token.url, .language-css pre[class*="language-"] .token.string, .style pre[class*="language-"] .token.string {
-  color: #e6d06c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003133}}
-code[class*="language-"] .token.selector, pre[class*="language-"] .token.selector {
-  color: #a6e22d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003143}}
-code[class*="language-"] .token.atrule, code[class*="language-"] .token.attr-value, code[class*="language-"] .token.keyword, code[class*="language-"] .token.control, code[class*="language-"] .token.directive, code[class*="language-"] .token.important, code[class*="language-"] .token.unit, pre[class*="language-"] .token.atrule, pre[class*="language-"] .token.attr-value, pre[class*="language-"] .token.keyword, pre[class*="language-"] .token.control, pre[class*="language-"] .token.directive, pre[class*="language-"] .token.important, pre[class*="language-"] .token.unit {
-  color: #f12770; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003148}}
-code[class*="language-"] .token.regex, code[class*="language-"] .token.statement, pre[class*="language-"] .token.regex, pre[class*="language-"] .token.statement {
-  color: #76d9e6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003153}}
-code[class*="language-"] .token.placeholder, code[class*="language-"] .token.variable, pre[class*="language-"] .token.placeholder, pre[class*="language-"] .token.variable {
-  color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003158}}
-code[class*="language-"] .token.property, code[class*="language-"] .token.tag, pre[class*="language-"] .token.property, pre[class*="language-"] .token.tag {
-  font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003163}}
-code[class*="language-"] .token.important, code[class*="language-"] .token.statement, pre[class*="language-"] .token.important, pre[class*="language-"] .token.statement {
-  font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003186}}
-code[class*="language-"] .token.punctuation, pre[class*="language-"] .token.punctuation {
-  color: #bebec5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003190}}
-code[class*="language-"] .token.entity, pre[class*="language-"] .token.entity {
-  cursor: help; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003195}}
-code[class*="language-"] .token.debug, pre[class*="language-"] .token.debug {
-  color: red; }
-
-/**
- * Prism base code highlighter theme using Sass
- *
- * @author @MoOx
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000338}}
-code[class*="language-"], pre[class*="language-"] {
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  font-family: Menlo, Monaco, "Courier New", monospace;
-  font-size: 12px;
-  line-height: 18px;
-  color: #76d9e6;
-  text-shadow: 0 1px 0 black;
-  background: #2f3030; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000364}}
-pre[class*="language-"], :not(pre) > code[class*="language-"] {
-  border-radius: 5px;
-  border: 1px solid #e1e1e8;
-  box-shadow: 1px 1px 0.3em -0.1em black inset; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000371}}
-pre[class*="language-"] {
-  padding: 12px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000378}}
-:not(pre) > code[class*="language-"] {
-  padding: 2px 6px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003102}}
-code[class*="language-"] .namespace, pre[class*="language-"] .namespace {
-  opacity: .7; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003110}}
-code[class*="language-"] .token.comment, code[class*="language-"] .token.prolog, code[class*="language-"] .token.doctype, code[class*="language-"] .token.cdata, pre[class*="language-"] .token.comment, pre[class*="language-"] .token.prolog, pre[class*="language-"] .token.doctype, pre[class*="language-"] .token.cdata {
-  color: #6f705e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003117}}
-code[class*="language-"] .token.null, code[class*="language-"] .token.operator, code[class*="language-"] .token.boolean, code[class*="language-"] .token.number, pre[class*="language-"] .token.null, pre[class*="language-"] .token.operator, pre[class*="language-"] .token.boolean, pre[class*="language-"] .token.number {
-  color: #a77afe; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003122}}
-code[class*="language-"] .token.attr-name, code[class*="language-"] .token.string, pre[class*="language-"] .token.attr-name, pre[class*="language-"] .token.string {
-  color: #e6d06c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003129}}
-code[class*="language-"] .token.entity, code[class*="language-"] .token.url, .language-css code[class*="language-"] .token.string, .style code[class*="language-"] .token.string, pre[class*="language-"] .token.entity, pre[class*="language-"] .token.url, .language-css pre[class*="language-"] .token.string, .style pre[class*="language-"] .token.string {
-  color: #e6d06c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003133}}
-code[class*="language-"] .token.selector, pre[class*="language-"] .token.selector {
-  color: #a6e22d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003143}}
-code[class*="language-"] .token.atrule, code[class*="language-"] .token.attr-value, code[class*="language-"] .token.keyword, code[class*="language-"] .token.control, code[class*="language-"] .token.directive, code[class*="language-"] .token.important, code[class*="language-"] .token.unit, pre[class*="language-"] .token.atrule, pre[class*="language-"] .token.attr-value, pre[class*="language-"] .token.keyword, pre[class*="language-"] .token.control, pre[class*="language-"] .token.directive, pre[class*="language-"] .token.important, pre[class*="language-"] .token.unit {
-  color: #f12770; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003148}}
-code[class*="language-"] .token.regex, code[class*="language-"] .token.statement, pre[class*="language-"] .token.regex, pre[class*="language-"] .token.statement {
-  color: #76d9e6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003153}}
-code[class*="language-"] .token.placeholder, code[class*="language-"] .token.variable, pre[class*="language-"] .token.placeholder, pre[class*="language-"] .token.variable {
-  color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003158}}
-code[class*="language-"] .token.property, code[class*="language-"] .token.tag, pre[class*="language-"] .token.property, pre[class*="language-"] .token.tag {
-  font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003163}}
-code[class*="language-"] .token.important, code[class*="language-"] .token.statement, pre[class*="language-"] .token.important, pre[class*="language-"] .token.statement {
-  font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003186}}
-code[class*="language-"] .token.punctuation, pre[class*="language-"] .token.punctuation {
-  color: #bebec5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003190}}
-code[class*="language-"] .token.entity, pre[class*="language-"] .token.entity {
-  cursor: help; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003195}}
-code[class*="language-"] .token.debug, pre[class*="language-"] .token.debug {
-  color: red; }
-
 /*
 
     KRAKEN-SASS
@@ -1344,43 +1180,9 @@ q:before, q:after {
   content: '';
   content: none; }
 
-/*  CODE */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003446}}
-code, pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
-  font-size: .764705882em;
-  border-radius: .176470588em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003452}}
-code {
-  color: #d14;
-  background-color: #f7f7f9;
-  padding: .235294118em;
-  border: .085em solid #e1e1e8; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003459}}
-pre {
-  display: block;
-  margin-bottom: 1.529411765em;
-  line-height: 1.538461538em;
-  background-color: #f5f5f5;
-  padding: .5em;
-  border: .085em solid #ccc;
-  border-radius: .235294118em;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003472}}
-pre code {
-  padding: 0;
-  color: inherit;
-  background-color: transparent;
-  border: 0; }
-
 /*  BUTTONS */
 /*  Styling for CSS3 buttons */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003486}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003444}}
 .btn {
   display: inline-block;
   font-size: .882352941em;
@@ -1393,51 +1195,51 @@ pre code {
   margin-left: .3em;
   margin-bottom: .3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003459}}
 .btn,
 .btn:hover,
 a .btn:hover {
   color: #ffffff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003506}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003464}}
 .btn:hover,
 a .btn:hover {
   background-color: #595959;
   border-color: #595959;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003470}}
 .btn-blue {
   background-color: #0088cc;
   border-color: #0088cc; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003476}}
 .btn-blue:hover,
 a .btn-blue:hover {
   background-color: #005580;
   border-color: #005580; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003481}}
 .btn:active {
   -webkit-box-shadow: inset 0 0.14286em 0.23529em rgba(0, 0, 0, 0.15), 0 0.07143em 0.14286em rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 0.14286em 0.23529em rgba(0, 0, 0, 0.15), 0 0.07143em 0.14286em rgba(0, 0, 0, 0.05);
   outline: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003487}}
 .btn-large {
   padding: .588235294em .882352941em;
   font-size: 1em;
   line-height: normal;
   border-radius: .294117647em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003536}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003494}}
 .btn-jumbo {
   padding: .882352941em 1.176470588em;
   font-size: 1.176470588em;
   line-height: normal;
   border-radius: .294117647em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003504}}
 .btn-block,
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
@@ -1451,35 +1253,35 @@ input[type="button"].btn-block {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003515}}
 .btn-block + .btn-block {
   margin-top: .333333333em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003519}}
 button, .btn {
   cursor: pointer;
   text-align: center;
   vertical-align: middle;
   -webkit-appearance: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003526}}
 .btn:first-child, input.btn {
   margin-left: 0; }
 
 /*  FORMS */
 /*  Styling for form elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003579}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003537}}
 form, fieldset {
   margin-bottom: 1.529411765em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003583}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003541}}
 legend, label {
   display: block;
   font-weight: normal;
   padding: 0;
   margin-bottom: .294117647em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003590}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003548}}
 input, textarea, select {
   display: block;
   width: 100%;
@@ -1495,15 +1297,15 @@ input, textarea, select {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003606}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003564}}
 form button, form .btn {
   margin-bottom: 1.176470588em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003610}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003568}}
 textarea {
   height: 12em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003616}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003574}}
 input[type="image"],
 input[type="checkbox"],
 input[type="radio"] {
@@ -1514,7 +1316,7 @@ input[type="radio"] {
   margin-bottom: .294117647em;
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003584}}
 input:focus,
 textarea:focus {
   border-color: rgba(82, 168, 236, 0.8);
@@ -1523,7 +1325,7 @@ textarea:focus {
   outline: 0;
   outline: thin dotted \9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003594}}
 input[type="file"]:focus,
 input[type="checkbox"]:focus,
 select:focus {
@@ -1532,19 +1334,19 @@ select:focus {
   outline-offset: -.117647059em; }
 
 /*  Inline Inputs */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003644}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003602}}
 .input-inline {
   display: inline;
   width: auto; }
 
 /*  Condensed Inputs */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003609}}
 .input-condensed {
   line-height: 1;
   padding: .117647059em; }
 
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003616}}
   input, textarea, select {
     line-height: 1.588235294; } }
 /*  ICONS */
@@ -1555,7 +1357,7 @@ select:focus {
   font-weight: normal;
   font-style: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003681}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003639}}
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: 'icomoon';
@@ -1566,57 +1368,57 @@ select:focus {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003691}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003649}}
 .icon-logo:before {
   content: "\e000"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003650}}
 .icon-github:before {
   content: "\e001"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003651}}
 .icon-docs:before {
   content: "\e002"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003652}}
 .icon-reset:before {
   content: "\e003"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003695}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003653}}
 .icon-grid:before {
   content: "\e004"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003696}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003654}}
 .icon-typography:before {
   content: "\e005"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003697}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003655}}
 .icon-buttons:before {
   content: "\e006"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003656}}
 .icon-forms:before {
   content: "\e007"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003699}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003657}}
 .icon-addons:before {
   content: "\e008"; }
 
 /*  BACKGROUND COLORS */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003708}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003666}}
 .bg-gray {
   background-color: #f4f4f4;
   padding-top: 1.529411765em;
   padding-bottom: 1.529411765em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003714}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003672}}
 .hero {
   background-color: #e5e5e5;
   padding: .470588235em;
   margin-bottom: 1.529411765em;
   border-radius: .235294118em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003721}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003679}}
 .hero-dark {
   background-color: #b8b8b8;
   margin-bottom: 0; }
@@ -1625,7 +1427,7 @@ select:focus {
 /*  Table styling */
 /*  Removes default browser settings
  *  and evens out inconsistencies. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003693}}
 table {
   max-width: 100%;
   border-collapse: collapse;
@@ -1633,7 +1435,7 @@ table {
 
 /*  Sets table width to 100%.
  *  Adds bottom-margin. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003701}}
 .table {
   width: 100%;
   margin-bottom: 1.529411765em; }
@@ -1641,7 +1443,7 @@ table {
 /*  Adds table cell padding,
  *  aligns text to the left,
  *  and adds a top border to each cell. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003709}}
 .table th, .table td {
   padding: .470588235em;
   text-align: left;
@@ -1649,125 +1451,125 @@ table {
 
 /*  Sets table header font-weight to bold.
  *  Aligns table header text to the bottom of each cell. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003717}}
 .table th {
   font-weight: bold;
   vertical-align: bottom; }
 
 /*  Aligns cell text to the top of each cell. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003765}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003723}}
 .table td {
   vertical-align: top; }
 
 /*  Removes the border-top from the first row. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003771}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003729}}
 .table thead:first-child tr th,
 .table thead:first-child tr td {
   border-top: 0; }
 
 /*  Adds border-top between two table-body sections. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003776}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003734}}
 .table tbody + tbody {
   border-top: .142857143em solid #b8b8b8; }
 
 /*  Reduces cell padding */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003782}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003740}}
 .table-condensed th,
 .table-condensed td {
   padding: .470588235em .294117647em; }
 
 /* Adds borders and border-radius. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003745}}
 .table-bordered {
   border: .071428571em solid #b8b8b8;
   border-collapse: separate;
   *border-collapse: collapsed;
   border-radius: .470588235em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003797}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003755}}
 .table-bordered th + th,
 .table-bordered td + td,
 .table-bordered th + td,
 .table-bordered td + th {
   border-left: .071428571em solid #b8b8b8; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003761}}
 .table-bordered thead:first-child tr:first-child th,
 .table-bordered tbody:first-child tr:first-child th,
 .table-bordered tbody:first-child tr:first-child td {
   border-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003808}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003766}}
 .table-bordered thead:first-child tr:first-child th:first-child,
 .table-bordered tbody:first-child tr:first-child td:first-child {
   border-radius: .470588235em 0 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003813}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003771}}
 .table-bordered thead:first-child tr:first-child th:last-child,
 .table-bordered tbody:first-child tr:first-child td:last-child {
   border-radius: 0 .470588235em 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003818}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003776}}
 .table-bordered thead:last-child tr:last-child th:first-child,
 .table-bordered tbody:last-child tr:last-child td:first-child {
   border-radius: 0 0 0 .470588235em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003823}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003781}}
 .table-bordered thead:last-child tr:last-child th:last-child,
 .table-bordered tbody:last-child tr:last-child td:last-child {
   border-radius: 0 0 .470588235em 0; }
 
 /*  FLOATS & HIDES */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003833}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003791}}
 .text-center {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003837}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003795}}
 .text-right {
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003841}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003799}}
 .text-left {
   text-align: left; }
 
 /*  Spacing */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003848}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003806}}
 .no-space {
   margin: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003853}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003811}}
 .no-space-bottom {
   margin-bottom: 0;
   padding-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003858}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003816}}
 .no-space-top {
   margin-top: 0;
   padding-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003863}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003821}}
 .space-bottom {
   margin-bottom: 2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003867}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003825}}
 .space-bottom-small {
   margin-bottom: .470588235em;
   padding-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003872}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003830}}
 .space-top {
   padding-top: .82352941234em; }
 
 /*  Hides */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003837}}
 .screen-reader {
   position: absolute;
   top: -9999em;
   left: -9999em; }
 
 /*  Clearfix */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003890}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003848}}
 .group:before, .group:after,
 .container:before, .container:after,
 .row:before, .row:after {
@@ -1775,7 +1577,7 @@ table {
   content: "";
   *zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003898}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003856}}
 .group:after,
 .container:after,
 .row:after {
@@ -1789,7 +1591,7 @@ table {
   /*  Universal selector.
    *  Reset all content to transparent background,
    *  black color, and remove box and text shadows. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003916}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003874}}
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1797,35 +1599,35 @@ table {
     text-shadow: none !important; }
 
   /*  Underline all links */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003924}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003882}}
   a, a:visited {
     text-decoration: underline; }
 
   /*  Show URL after links */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003929}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003887}}
   a[href]:after {
     content: " (" attr(href) ")"; }
 
   /*  Don't show URL for internal links */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003934}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003892}}
   a[href^="#"]:after {
     content: ""; }
 
   /*  Display code and blockquotes with a border.
    *  Avoid page breaks inside the content */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003941}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003899}}
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
   /*  Displayed as a table header row group */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003947}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003905}}
   thead {
     display: table-header-group; }
 
   /*  Avoid inserting a page break inside table rows and images */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003953}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003911}}
   tr,
   img {
     page-break-inside: avoid; }
@@ -1835,12 +1637,93 @@ table {
     margin: 0.5cm; }
 
   /*  Specifies the minimum number of lines to print at the top and bottom of a page. */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003963}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003921}}
   p, h1, h2, h3 {
     orphans: 3;
     widows: 3; }
 
   /*  Avoid inserting a page break after headers */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003969}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003927}}
   h1, h2, h3 {
     page-break-after: avoid; } }
+/**
+ * Prism base code highlighter theme using Sass
+ *
+ * @author @MoOx
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000338}}
+code[class*="language-"], pre[class*="language-"] {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 12px;
+  line-height: 18px;
+  color: #76d9e6;
+  text-shadow: 0 1px 0 black;
+  background: #2f3030; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000364}}
+pre[class*="language-"], :not(pre) > code[class*="language-"] {
+  border-radius: 5px;
+  border: 1px solid #e1e1e8;
+  box-shadow: 1px 1px 0.3em -0.1em black inset; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000371}}
+pre[class*="language-"] {
+  padding: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\0000378}}
+:not(pre) > code[class*="language-"] {
+  padding: 2px 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003102}}
+code[class*="language-"] .namespace, pre[class*="language-"] .namespace {
+  opacity: .7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003110}}
+code[class*="language-"] .token.comment, code[class*="language-"] .token.prolog, code[class*="language-"] .token.doctype, code[class*="language-"] .token.cdata, pre[class*="language-"] .token.comment, pre[class*="language-"] .token.prolog, pre[class*="language-"] .token.doctype, pre[class*="language-"] .token.cdata {
+  color: #6f705e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003117}}
+code[class*="language-"] .token.null, code[class*="language-"] .token.operator, code[class*="language-"] .token.boolean, code[class*="language-"] .token.number, pre[class*="language-"] .token.null, pre[class*="language-"] .token.operator, pre[class*="language-"] .token.boolean, pre[class*="language-"] .token.number {
+  color: #a77afe; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003122}}
+code[class*="language-"] .token.attr-name, code[class*="language-"] .token.string, pre[class*="language-"] .token.attr-name, pre[class*="language-"] .token.string {
+  color: #e6d06c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003129}}
+code[class*="language-"] .token.entity, code[class*="language-"] .token.url, .language-css code[class*="language-"] .token.string, .style code[class*="language-"] .token.string, pre[class*="language-"] .token.entity, pre[class*="language-"] .token.url, .language-css pre[class*="language-"] .token.string, .style pre[class*="language-"] .token.string {
+  color: #e6d06c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003133}}
+code[class*="language-"] .token.selector, pre[class*="language-"] .token.selector {
+  color: #a6e22d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003143}}
+code[class*="language-"] .token.atrule, code[class*="language-"] .token.attr-value, code[class*="language-"] .token.keyword, code[class*="language-"] .token.control, code[class*="language-"] .token.directive, code[class*="language-"] .token.important, code[class*="language-"] .token.unit, pre[class*="language-"] .token.atrule, pre[class*="language-"] .token.attr-value, pre[class*="language-"] .token.keyword, pre[class*="language-"] .token.control, pre[class*="language-"] .token.directive, pre[class*="language-"] .token.important, pre[class*="language-"] .token.unit {
+  color: #f12770; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003148}}
+code[class*="language-"] .token.regex, code[class*="language-"] .token.statement, pre[class*="language-"] .token.regex, pre[class*="language-"] .token.statement {
+  color: #76d9e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003153}}
+code[class*="language-"] .token.placeholder, code[class*="language-"] .token.variable, pre[class*="language-"] .token.placeholder, pre[class*="language-"] .token.variable {
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003158}}
+code[class*="language-"] .token.property, code[class*="language-"] .token.tag, pre[class*="language-"] .token.property, pre[class*="language-"] .token.tag {
+  font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003163}}
+code[class*="language-"] .token.important, code[class*="language-"] .token.statement, pre[class*="language-"] .token.important, pre[class*="language-"] .token.statement {
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003186}}
+code[class*="language-"] .token.punctuation, pre[class*="language-"] .token.punctuation {
+  color: #bebec5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003190}}
+code[class*="language-"] .token.entity, pre[class*="language-"] .token.entity {
+  cursor: help; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003195}}
+code[class*="language-"] .token.debug, pre[class*="language-"] .token.debug {
+  color: red; }
