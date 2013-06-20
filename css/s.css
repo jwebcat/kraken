@@ -135,14 +135,14 @@ a:hover, a:active {
 /*  Structure and layout */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\000037}}
 .cfix:before, .cfix:after,
-.scss-demo > div:before,
-.scss-demo > div:after {
+.scss-demo:before,
+.scss-demo:after {
   display: table;
   content: "";
   *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000312}}
 .cfix:after,
-.scss-demo > div:after {
+.scss-demo:after {
   clear: both; }
 
 /*  Mobile-first. Single-column layout by default
@@ -160,14 +160,41 @@ a:hover, a:active {
 @media (min-width: 30em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000334}}
   .row,
-  .scss-demo > div {
+  .scss-demo {
     margin-left: -1.515151515152%;
     margin-right: -1.515151515152%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000341}}
   [class^="grid-"],
   [class*="grid-"],
-  .scss-demo > div div {
+  .scss-demo article:nth-of-type(1) > div,
+  .scss-demo article:nth-of-type(2) > div,
+  .scss-demo article:nth-of-type(3) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(3) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(4) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(4) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(5) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(5) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(5) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(6) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(6) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(7) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(7) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(8) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(8) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(8) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(9) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(9) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(9) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(10) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(10) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(10) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(11) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(11) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(11) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(12) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(12) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(13) div:nth-of-type(1) {
     float: left;
     width: 96.969696969697%;
     margin-left: 1.515151515152%;
@@ -193,7 +220,7 @@ a:hover, a:active {
 /*  6-column grid  */
 @media (min-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000377}}
-  .scss-demo > div div {
+  .scss-demo article:nth-of-type(1) > div, .scss-demo article:nth-of-type(2) > div, .scss-demo article:nth-of-type(3) div:nth-of-type(1), .scss-demo article:nth-of-type(3) div:nth-of-type(2), .scss-demo article:nth-of-type(4) div:nth-of-type(1), .scss-demo article:nth-of-type(4) div:nth-of-type(2), .scss-demo article:nth-of-type(5) div:nth-of-type(1), .scss-demo article:nth-of-type(5) div:nth-of-type(3), .scss-demo article:nth-of-type(5) div:nth-of-type(2), .scss-demo article:nth-of-type(6) div:nth-of-type(1), .scss-demo article:nth-of-type(6) div:nth-of-type(2), .scss-demo article:nth-of-type(7) div:nth-of-type(1), .scss-demo article:nth-of-type(7) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(1), .scss-demo article:nth-of-type(8) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(3), .scss-demo article:nth-of-type(9) div:nth-of-type(1), .scss-demo article:nth-of-type(9) div:nth-of-type(2), .scss-demo article:nth-of-type(9) div:nth-of-type(3), .scss-demo article:nth-of-type(10) div:nth-of-type(1), .scss-demo article:nth-of-type(10) div:nth-of-type(2), .scss-demo article:nth-of-type(10) div:nth-of-type(3), .scss-demo article:nth-of-type(11) div:nth-of-type(1), .scss-demo article:nth-of-type(11) div:nth-of-type(2), .scss-demo article:nth-of-type(11) div:nth-of-type(3), .scss-demo article:nth-of-type(12) div:nth-of-type(1), .scss-demo article:nth-of-type(12) div:nth-of-type(2), .scss-demo article:nth-of-type(13) div:nth-of-type(1) {
     float: left;
     width: 96.969696969697%;
     margin-left: 1.515151515152%;
@@ -201,32 +228,59 @@ a:hover, a:active {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000385}}
   .grid-1,
-  .scss-demo > div div {
+  .scss-demo article:nth-of-type(1) > div,
+  .scss-demo article:nth-of-type(5) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(5) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(7) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(8) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(8) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(9) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(10) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(11) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(11) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(12) div:nth-of-type(2) {
     width: 13.636363636364%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000394}}
   .grid-2,
+  .scss-demo article:nth-of-type(2) > div,
+  .scss-demo article:nth-of-type(3) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(4) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(6) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(9) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(10) div:nth-of-type(3),
   .grid-third,
   .grid-img {
     width: 30.30303030303%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003101}}
   .grid-3,
+  .scss-demo article:nth-of-type(9) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(10) div:nth-of-type(1),
   .grid-half {
     width: 46.969696969697%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003108}}
   .grid-4,
+  .scss-demo article:nth-of-type(3) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(4) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(5) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(6) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(8) div:nth-of-type(3),
+  .scss-demo article:nth-of-type(11) div:nth-of-type(1),
   .grid-two-thirds {
     width: 63.636363636364%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003113}}
-  .grid-5 {
+  .grid-5,
+  .scss-demo article:nth-of-type(7) div:nth-of-type(2),
+  .scss-demo article:nth-of-type(12) div:nth-of-type(1) {
     width: 80.30303030303%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\00003120}}
   .grid-6,
-  .grid-full {
+  .grid-full,
+  .scss-demo article:nth-of-type(13) div:nth-of-type(1) {
     width: 96.969696969697%; }
 
   /*  Offets let you shift grid elements to the right
@@ -666,7 +720,7 @@ select:focus {
   text-align: right; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000313}}
-.text-left {
+.text-left, .scss-demo article div {
   text-align: left; }
 
 /*  Floats */
@@ -701,7 +755,7 @@ select:focus {
   padding-top: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000352}}
-.space-bottom {
+.space-bottom, .scss-demo article {
   margin-bottom: 2em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000356}}
@@ -807,7 +861,8 @@ select:focus {
   padding-bottom: 1.52941em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/addons\/_hero\.scss}line{font-family:\0000334}}
-.bg-blue {
+.bg-blue,
+.scss-demo article div {
   color: white;
   background-color: #0088cc; }
 
@@ -817,8 +872,7 @@ select:focus {
   padding-bottom: 0.82353em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/addons\/_hero\.scss}line{font-family:\0000346}}
-.hero,
-.scss-demo > div div > div {
+.hero {
   background-color: #f4f4f4;
   margin-bottom: 1.52941em;
   padding: 1.52941em;
@@ -829,13 +883,11 @@ select:focus {
 .hero-condensed {
   padding: 0.82353em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_shame\.scss}line{font-family:\0000316}}
-.scss-demo > div div {
-  text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_shame\.scss}line{font-family:\0000320}}
-.scss-demo > div div > div {
-  padding: 1em 2em;
-  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_shame\.scss}line{font-family:\0000312}}
+.scss-demo article div, .scss-demo article:nth-of-type(3) div:nth-of-type(1), .scss-demo article:nth-of-type(3) div:nth-of-type(2), .scss-demo article:nth-of-type(4) div:nth-of-type(1), .scss-demo article:nth-of-type(4) div:nth-of-type(2), .scss-demo article:nth-of-type(5) div:nth-of-type(1), .scss-demo article:nth-of-type(5) div:nth-of-type(3), .scss-demo article:nth-of-type(5) div:nth-of-type(2), .scss-demo article:nth-of-type(6) div:nth-of-type(1), .scss-demo article:nth-of-type(6) div:nth-of-type(2), .scss-demo article:nth-of-type(7) div:nth-of-type(1), .scss-demo article:nth-of-type(7) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(1), .scss-demo article:nth-of-type(8) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(3), .scss-demo article:nth-of-type(9) div:nth-of-type(1), .scss-demo article:nth-of-type(9) div:nth-of-type(2), .scss-demo article:nth-of-type(9) div:nth-of-type(3), .scss-demo article:nth-of-type(10) div:nth-of-type(1), .scss-demo article:nth-of-type(10) div:nth-of-type(2), .scss-demo article:nth-of-type(10) div:nth-of-type(3), .scss-demo article:nth-of-type(11) div:nth-of-type(1), .scss-demo article:nth-of-type(11) div:nth-of-type(2), .scss-demo article:nth-of-type(11) div:nth-of-type(3), .scss-demo article:nth-of-type(12) div:nth-of-type(1), .scss-demo article:nth-of-type(12) div:nth-of-type(2), .scss-demo article:nth-of-type(13) div:nth-of-type(1) {
+  text-indent: .5em;
+  margin-top: .5em;
+  margin-bottom: .5em; }
 
 /*
 

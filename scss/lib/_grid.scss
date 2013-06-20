@@ -183,7 +183,7 @@
         @extend %grid-2;
         @extend %grid-float;
     }
-    @else if $size == third {
+    @else if $size == one-third {
         @extend %grid-third;
         @extend %grid-float;
     }
