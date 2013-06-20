@@ -1,17 +1,4 @@
-// here you can put all of your last minute or lazy hacks.
-// So that you can eliminate them all as you have time or want to
-
-pre {
-    overflow-y: auto;
-}
-
-p > button {
-    @extend %btn;
-    @extend %btn-blue;
-    @extend %btn-large;
-}
-
-// demo-1 for grid.html
+// blue bg for demo grid units
 
 %demo-unit {
     @extend %bg-blue;
@@ -20,6 +7,7 @@ p > button {
     margin-top: .5em;
     margin-bottom: .5em;
 }
+// demo for grid
 
 .scss-demo {
     @include row();
@@ -28,39 +16,49 @@ p > button {
                 div {
                     @extend %demo-unit;
                 }
-                        &:nth-of-type(1) {
+                    &:nth-of-type(1) {
+                        > div {
+                            @include grid(1);
+                        }
+                    }
+                        &:nth-of-type(2) {
                             > div {
-                                @include grid(1);
+                                @include grid(2);
                             }
                         }
-                            &:nth-of-type(2) {
-                                > div {
+                            &:nth-of-type(3) {
+                                div:nth-of-type(1) {
                                     @include grid(2);
+                                    @extend %demo-unit;
                                 }
+                                    div:nth-of-type(2) {
+                                        @include grid(4);
+                                        @extend %demo-unit;
+                                    }
                             }
-                                &:nth-of-type(3) {
+                                &:nth-of-type(4) {
                                     div:nth-of-type(1) {
-                                        @include grid(2);
+                                        @include grid(4);
                                         @extend %demo-unit;
                                     }
                                         div:nth-of-type(2) {
-                                            @include grid(4);
+                                            @include grid(2);
                                             @extend %demo-unit;
                                         }
                                 }
-                                    &:nth-of-type(4) {
-                                        div:nth-of-type(1) {
-                                            @include grid(4);
+                                    &:nth-of-type(5) {
+                                        div:nth-of-type(1), div:nth-of-type(3) {
+                                            @include grid(1);
                                             @extend %demo-unit;
                                         }
                                             div:nth-of-type(2) {
-                                                @include grid(2);
+                                                @include grid(4);
                                                 @extend %demo-unit;
                                             }
                                     }
-                                        &:nth-of-type(5) {
-                                            div:nth-of-type(1), div:nth-of-type(3) {
-                                                @include grid(1);
+                                        &:nth-of-type(6) {
+                                            div:nth-of-type(1) {
+                                                @include grid(2);
                                                 @extend %demo-unit;
                                             }
                                                 div:nth-of-type(2) {
@@ -68,29 +66,33 @@ p > button {
                                                     @extend %demo-unit;
                                                 }
                                         }
-                                            &:nth-of-type(6) {
+                                            &:nth-of-type(7) {
                                                 div:nth-of-type(1) {
-                                                    @include grid(2);
+                                                    @include grid(1);
                                                     @extend %demo-unit;
                                                 }
                                                     div:nth-of-type(2) {
-                                                        @include grid(4);
+                                                        @include grid(5);
                                                         @extend %demo-unit;
                                                     }
                                             }
-                                                &:nth-of-type(7) {
+                                                &:nth-of-type(8) {
                                                     div:nth-of-type(1) {
                                                         @include grid(1);
                                                         @extend %demo-unit;
                                                     }
                                                         div:nth-of-type(2) {
-                                                            @include grid(5);
+                                                            @include grid(1);
                                                             @extend %demo-unit;
                                                         }
+                                                            div:nth-of-type(3) {
+                                                                @include grid(4);
+                                                                @extend %demo-unit;
+                                                            }
                                                 }
-                                                    &:nth-of-type(8) {
+                                                    &:nth-of-type(9) {
                                                         div:nth-of-type(1) {
-                                                            @include grid(1);
+                                                            @include grid(2);
                                                             @extend %demo-unit;
                                                         }
                                                             div:nth-of-type(2) {
@@ -98,13 +100,13 @@ p > button {
                                                                 @extend %demo-unit;
                                                             }
                                                                 div:nth-of-type(3) {
-                                                                    @include grid(4);
+                                                                    @include grid(3);
                                                                     @extend %demo-unit;
                                                                 }
                                                     }
-                                                        &:nth-of-type(9) {
+                                                        &:nth-of-type(10) {
                                                             div:nth-of-type(1) {
-                                                                @include grid(2);
+                                                                @include grid(3);
                                                                 @extend %demo-unit;
                                                             }
                                                                 div:nth-of-type(2) {
@@ -112,13 +114,13 @@ p > button {
                                                                     @extend %demo-unit;
                                                                 }
                                                                     div:nth-of-type(3) {
-                                                                        @include grid(3);
+                                                                        @include grid(2);
                                                                         @extend %demo-unit;
                                                                     }
                                                         }
-                                                            &:nth-of-type(10) {
+                                                            &:nth-of-type(11) {
                                                                 div:nth-of-type(1) {
-                                                                    @include grid(3);
+                                                                    @include grid(4);
                                                                     @extend %demo-unit;
                                                                 }
                                                                     div:nth-of-type(2) {
@@ -126,39 +128,25 @@ p > button {
                                                                         @extend %demo-unit;
                                                                     }
                                                                         div:nth-of-type(3) {
-                                                                            @include grid(2);
+                                                                            @include grid(1);
                                                                             @extend %demo-unit;
                                                                         }
                                                             }
-                                                                &:nth-of-type(11) {
+                                                                &:nth-of-type(12) {
                                                                     div:nth-of-type(1) {
-                                                                        @include grid(4);
+                                                                        @include grid(5);
                                                                         @extend %demo-unit;
                                                                     }
                                                                         div:nth-of-type(2) {
                                                                             @include grid(1);
                                                                             @extend %demo-unit;
                                                                         }
-                                                                            div:nth-of-type(3) {
-                                                                                @include grid(1);
-                                                                                @extend %demo-unit;
-                                                                            }
                                                                 }
-                                                                    &:nth-of-type(12) {
+                                                                    &:nth-of-type(13) {
                                                                         div:nth-of-type(1) {
-                                                                            @include grid(5);
+                                                                            @include grid(full);
                                                                             @extend %demo-unit;
                                                                         }
-                                                                            div:nth-of-type(2) {
-                                                                                @include grid(1);
-                                                                                @extend %demo-unit;
-                                                                            }
                                                                     }
-                                                                        &:nth-of-type(13) {
-                                                                            div:nth-of-type(1) {
-                                                                                @include grid(full);
-                                                                                @extend %demo-unit;
-                                                                            }
-                                                                        }
         }
 }

@@ -117,8 +117,8 @@ a:hover, a:active {
 /*  Mobile-first. Single-column layout by default
  *  Container sets the maximum page width. Adjust as needed. */
 .container {
-    max-width: 40em;
-    width: 88%;
+    max-width: $containerMaxWidth;
+    width: $containerWidth;
     margin-left: auto;
     margin-right: auto;
 }

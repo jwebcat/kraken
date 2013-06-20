@@ -46,10 +46,10 @@ $code-box-shadow: 		1px 1px .3em -.1em #000 inset !default;
 		hyphens: $code-hyphens;
 
 		// whitespace management
-		white-space: pre; // fallback
-		white-space: pre-wrap;
-		word-break: break-all;
-		word-wrap: break-word;
+		// white-space: pre; // fallback
+		// white-space: pre-wrap;
+		// word-break: break-all;
+		// word-wrap: break-word;  // this causes no scrolling
 
 		font-family: $code-font-family;
 		font-size: 	$code-font-size;
@@ -58,6 +58,9 @@ $code-box-shadow: 		1px 1px .3em -.1em #000 inset !default;
 		color: $code-color;
 		text-shadow: $code-text-shadow;
 		background: $code-background;
+		overflow: auto;
+		overflow-y: auto;
+		overflow-x: auto !important;
 	}
 }
 
