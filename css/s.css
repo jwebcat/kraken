@@ -149,7 +149,7 @@ a:hover, a:active {
  *  Container sets the maximum page width. Adjust as needed. */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000320}}
 .container {
-  max-width: 60em;
+  max-width: 40em;
   width: 88%;
   margin-left: auto;
   margin-right: auto; }
@@ -220,7 +220,8 @@ a:hover, a:active {
 /*  6-column grid  */
 @media (min-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_grid\.scss}line{font-family:\0000377}}
-  .scss-demo article:nth-of-type(1) > div, .scss-demo article:nth-of-type(2) > div, .scss-demo article:nth-of-type(3) div:nth-of-type(1), .scss-demo article:nth-of-type(3) div:nth-of-type(2), .scss-demo article:nth-of-type(4) div:nth-of-type(1), .scss-demo article:nth-of-type(4) div:nth-of-type(2), .scss-demo article:nth-of-type(5) div:nth-of-type(1), .scss-demo article:nth-of-type(5) div:nth-of-type(3), .scss-demo article:nth-of-type(5) div:nth-of-type(2), .scss-demo article:nth-of-type(6) div:nth-of-type(1), .scss-demo article:nth-of-type(6) div:nth-of-type(2), .scss-demo article:nth-of-type(7) div:nth-of-type(1), .scss-demo article:nth-of-type(7) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(1), .scss-demo article:nth-of-type(8) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(3), .scss-demo article:nth-of-type(9) div:nth-of-type(1), .scss-demo article:nth-of-type(9) div:nth-of-type(2), .scss-demo article:nth-of-type(9) div:nth-of-type(3), .scss-demo article:nth-of-type(10) div:nth-of-type(1), .scss-demo article:nth-of-type(10) div:nth-of-type(2), .scss-demo article:nth-of-type(10) div:nth-of-type(3), .scss-demo article:nth-of-type(11) div:nth-of-type(1), .scss-demo article:nth-of-type(11) div:nth-of-type(2), .scss-demo article:nth-of-type(11) div:nth-of-type(3), .scss-demo article:nth-of-type(12) div:nth-of-type(1), .scss-demo article:nth-of-type(12) div:nth-of-type(2), .scss-demo article:nth-of-type(13) div:nth-of-type(1) {
+  .scss-demo article:nth-of-type(1) > div, .scss-demo article:nth-of-type(2) > div, .scss-demo article:nth-of-type(3) div:nth-of-type(1), .scss-demo article:nth-of-type(3) div:nth-of-type(2), .scss-demo article:nth-of-type(4) div:nth-of-type(1), .scss-demo article:nth-of-type(4) div:nth-of-type(2), .scss-demo article:nth-of-type(5) div:nth-of-type(1),
+  .scss-demo article:nth-of-type(5) div:nth-of-type(3), .scss-demo article:nth-of-type(5) div:nth-of-type(2), .scss-demo article:nth-of-type(6) div:nth-of-type(1), .scss-demo article:nth-of-type(6) div:nth-of-type(2), .scss-demo article:nth-of-type(7) div:nth-of-type(1), .scss-demo article:nth-of-type(7) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(1), .scss-demo article:nth-of-type(8) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(3), .scss-demo article:nth-of-type(9) div:nth-of-type(1), .scss-demo article:nth-of-type(9) div:nth-of-type(2), .scss-demo article:nth-of-type(9) div:nth-of-type(3), .scss-demo article:nth-of-type(10) div:nth-of-type(1), .scss-demo article:nth-of-type(10) div:nth-of-type(2), .scss-demo article:nth-of-type(10) div:nth-of-type(3), .scss-demo article:nth-of-type(11) div:nth-of-type(1), .scss-demo article:nth-of-type(11) div:nth-of-type(2), .scss-demo article:nth-of-type(11) div:nth-of-type(3), .scss-demo article:nth-of-type(12) div:nth-of-type(1), .scss-demo article:nth-of-type(12) div:nth-of-type(2), .scss-demo article:nth-of-type(13) div:nth-of-type(1) {
     float: left;
     width: 96.969696969697%;
     margin-left: 1.515151515152%;
@@ -711,79 +712,84 @@ select:focus {
  *  http://cferdinandi.github.io/kraken/addons.html */
 /*  ALIGNMENT, SPACING & VISIBILITY */
 /*  Text alignment */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\000036}}
 .text-center {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000311}}
 .text-right {
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000313}}
-.text-left, .scss-demo article div {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000316}}
+.text-left,
+.scss-demo article div {
   text-align: left; }
 
 /*  Floats */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000324}}
 .float-left {
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000329}}
 .float-center {
   float: none;
   margin-left: auto;
   margin-right: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000336}}
 .float-right {
   float: right; }
 
 /*  Spacing */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000344}}
 .no-space {
   margin: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000350}}
 .no-space-bottom {
   margin-bottom: 0;
   padding-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000356}}
 .no-space-top {
   margin-top: 0;
   padding-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000352}}
-.space-bottom, .scss-demo article {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000362}}
+.space-bottom,
+.scss-demo article {
   margin-bottom: 2em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000367}}
 .space-bottom-small {
   margin-bottom: .470588235em;
   padding-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000373}}
 .space-top {
   padding-top: .82352941234em; }
 
 /*  Screen Reader Text */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000381}}
 .screen-reader {
   position: absolute;
   top: -9999em;
   left: -9999em; }
 
 /*  Clearfix */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000379}}
-.group:before, .group:after,
-.container:before, .container:after,
-.row:before, .row:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000395}}
+.group:before,
+.group:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
   display: table;
   content: "";
   *zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_spacing\.scss}line{font-family:\00003103}}
 .group:after,
 .container:after,
 .row:after {
@@ -888,10 +894,11 @@ pre {
   overflow-y: auto; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_shame\.scss}line{font-family:\0000316}}
-.scss-demo article div, .scss-demo article:nth-of-type(3) div:nth-of-type(1), .scss-demo article:nth-of-type(3) div:nth-of-type(2), .scss-demo article:nth-of-type(4) div:nth-of-type(1), .scss-demo article:nth-of-type(4) div:nth-of-type(2), .scss-demo article:nth-of-type(5) div:nth-of-type(1), .scss-demo article:nth-of-type(5) div:nth-of-type(3), .scss-demo article:nth-of-type(5) div:nth-of-type(2), .scss-demo article:nth-of-type(6) div:nth-of-type(1), .scss-demo article:nth-of-type(6) div:nth-of-type(2), .scss-demo article:nth-of-type(7) div:nth-of-type(1), .scss-demo article:nth-of-type(7) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(1), .scss-demo article:nth-of-type(8) div:nth-of-type(2), .scss-demo article:nth-of-type(8) div:nth-of-type(3), .scss-demo article:nth-of-type(9) div:nth-of-type(1), .scss-demo article:nth-of-type(9) div:nth-of-type(2), .scss-demo article:nth-of-type(9) div:nth-of-type(3), .scss-demo article:nth-of-type(10) div:nth-of-type(1), .scss-demo article:nth-of-type(10) div:nth-of-type(2), .scss-demo article:nth-of-type(10) div:nth-of-type(3), .scss-demo article:nth-of-type(11) div:nth-of-type(1), .scss-demo article:nth-of-type(11) div:nth-of-type(2), .scss-demo article:nth-of-type(11) div:nth-of-type(3), .scss-demo article:nth-of-type(12) div:nth-of-type(1), .scss-demo article:nth-of-type(12) div:nth-of-type(2), .scss-demo article:nth-of-type(13) div:nth-of-type(1) {
+.scss-demo article div {
   text-indent: .5em;
   margin-top: .5em;
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+  border-radius: .2em; }
 
 /*
 
@@ -1018,7 +1025,7 @@ a:hover, a:active {
  *  Container sets the maximum page width. Adjust as needed. */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/_demo\.scss}line{font-family:\00003119}}
 .container {
-  max-width: 60em;
+  max-width: 40em;
   width: 88%;
   margin-left: auto;
   margin-right: auto; }
@@ -1846,3 +1853,43 @@ code[class*="language-"] .token.entity, pre[class*="language-"] .token.entity {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003198}}
 code[class*="language-"] .token.debug, pre[class*="language-"] .token.debug {
   color: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003203}}
+pre.line-numbers {
+  position: relative;
+  padding-left: 3.8em;
+  counter-reset: linenumber; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003209}}
+pre.line-numbers > code {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003213}}
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8em;
+  width: 3em;
+  /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003230}}
+.line-numbers-rows > span {
+  pointer-events: none;
+  display: block;
+  counter-increment: linenumber; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/lib\/k-alpha\/scss\/lib\/_prism\.scss}line{font-family:\00003236}}
+.line-numbers-rows > span:before {
+  content: counter(linenumber);
+  color: #999;
+  display: block;
+  padding-right: 0.8em;
+  text-align: right; }

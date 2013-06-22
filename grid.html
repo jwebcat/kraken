@@ -44,6 +44,8 @@
 
 	        <p>Kraken uses a fluid, mobile-first 6-column grid system. It includes offsets, grid nesting, and special classes for content choreography and image galleries.</p>
 
+            <h2>The Grid lives at <code class="language-markup">/scss/lib/_grid.scss</code></h2>
+            <p>All the settings for the Grid are in <code class="language-markup">/scss/lib/_config.scss</code></p>
 	        <h2 class="text-center">The Base Grid using .classes in html</h2>
 
             <div class="row">
@@ -86,11 +88,11 @@
                 <div class="grid-6"><div class="hero">.grid-6</div></div>
             </div>
 
-            <pre class="language-markup" data-src="demo/demo-grid-1.html">
+            <pre class="language-markup line-numbers" data-src="demo/demo-grid-1.html">
                 <code></code>
             </pre>
 
-            <h2 class="text-center">The Base Grid using @extend in Scss</h2>
+            <h2 class="text-center">The Base Grid using <code class="language-scss">@include grid()</code> in Scss</h2>
 
             <section class="scss-demo">
                 <article>
@@ -239,13 +241,13 @@
 
             </section>
 
-            <pre class="language-scss" data-src="demo/_demo-scss-grid-1.scss">
+            <pre class="language-scss line-numbers" data-src="demo/demo-scss-grid-1.scss">
                 <code></code>
             </pre>
 
 	        <h2 class="text-center">Offsets</h2>
 
-	        <p>Push grids to the right by adding an <code>.offset-*</code> class.</p>
+	        <p>Push grids to the right by adding an <code class="language-scss">.offset-*</code> class.</p>
 
 	        <p class="text-small"><em><strong>Note:</strong> The grids and offsets cannot add up to more than 6.</em></p>
 
@@ -258,30 +260,41 @@
                 <div class="grid-3 offset-1"><div class="hero">.grid-3 .offset-1</div></div>
             </div>
 
-            <pre class="language-markup" data-src="demo/demo-grid-2.html">
+            <pre class="language-markup line-numbers" data-src="demo/demo-grid-2.html">
                 <code></code>
             </pre>
 
+            <h2 class="text-center">Offsets using <code class="language-scss">@extend</code> in Scss</h2>
+            <p>Here is how to use offsets for the above example with <code class="language-scss">@extend</code> with <code class="language-scss">@include offset()</code> mixin.</p>
+
+            <pre class="language-scss line-numbers" data-src="demo/demo-offset.scss">
+                <code></code>
+            </pre>
 
 	        <h2 class="text-center">Content Choreography</h2>
 
-	        <p>Flip the order of a grid on bigger screens by adding the <code>.grid-flip</code> class.</p>
+	        <p>Flip the order of a grid on bigger screens by adding the <code class="language-scss">.grid-flip</code> class.</p>
 
             <div class="row">
                 <div class="grid-2 grid-flip"><div class="hero">First in HTML</div></div>
                 <div class="grid-4"><div class="hero">Second in HTML</div></div>
             </div>
 
-            <pre class="language-markup" data-src="demo/demo-grid-3.html">
+            <pre class="language-markup line-numbers" data-src="demo/demo-grid-3.html">
                 <code></code>
             </pre>
 
+            <h2>Grid Flip with <code class="language-scss">@extend %grid-flip;</code></h2>
+
+            <pre data-src="demo/demo-grid-flip.scss">
+                <code></code>
+            </pre>
 
             	<h2 class="text-center">Image Gallery</h2>
 
             	<p>Display images in a responsive gallery by using the <code>.grid-img</code> class.</p>
 
-            	<p class="text-small"><em><strong>Note:</strong> You can add any number of image grids to a <code>.row</code>. They'll automatically adjust themselves.</em></p>
+            	<p class="text-small"><em><strong>Note:</strong> You can add any number of image grids to a <code class="language-scss">.row</code>. They'll automatically adjust themselves.</em></p>
 
             <div class="row">
                 <div class="grid-img"><p><img src="img/emu.jpg" title="Picture an emu"></p></div>
@@ -298,10 +311,15 @@
                 <div class="grid-img"><p><img src="img/emu.jpg" title="Picture an emu"></p></div>
             </div>
 
-            <pre class="language-markup" data-src="demo/demo-grid-5.html">
+            <pre class="language-markup line-numbers" data-src="demo/demo-grid-4.html">
                 <code></code>
             </pre>
 
+            <h2>Image Gallery using <code class="language-scss">@extend %grid-img;</code></h2>
+
+            <pre data-src="demo/demo-grid-img.scss">
+                <code></code>
+            </pre>
 
             <h2 class="text-center">Nesting</h2>
 
@@ -327,7 +345,13 @@
                 </div></div>
             </div>
 
-            <pre class="language-html" data-src="demo/demo-grid-5.html">
+            <pre class="language-html line-numbers" data-src="demo/demo-grid-5.html">
+                <code></code>
+            </pre>
+
+            <h2>Nesting using <code class="language-scss">@include grid();</code></h2>
+
+            <pre class="line-numbers" data-src="demo/demo-nesting.scss">
                 <code></code>
             </pre>
 
@@ -335,9 +359,11 @@
 
             <p>Kraken has a page width of 80em (approximately 1280px) by default.</p>
 
-            <p>You can adjust this by changing the <code>max-width</code> on the <code>.container</code> class.</p>
+            <p>for this demo the width is set to 60em</p>
 
-            <pre class="language-markup" data-src="demo/demo-grid-1.scss">
+            <p>You can adjust this by changing the <code class="language-scss">$containerMaxWidth</code> in the <code class="language-markup">_config</code> file for Kraken in <code class="language-markup">/lib</code></p>
+
+            <pre class="language-markup line-numbers" data-src="demo/demo-grid-container.scss">
                 <code></code>
             </pre>
 

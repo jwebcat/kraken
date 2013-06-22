@@ -1,17 +1,4 @@
-// here you can put all of your last minute or lazy hacks.
-// So that you can eliminate them all as you have time or want to
-
-pre {
-    overflow-y: auto;
-}
-
-p > button {
-    @extend %btn;
-    @extend %btn-blue;
-    @extend %btn-large;
-}
-
-// demo-1 for grid.html
+// blue bg for demo grid units
 
 %demo-unit {
     @extend %bg-blue;
@@ -19,8 +6,9 @@ p > button {
     text-indent: .5em;
     margin-top: .5em;
     margin-bottom: .5em;
-    border-radius: .2em;
 }
+
+// demo for grid
 
 .scss-demo {
     @include row();

@@ -54,11 +54,12 @@
 	    <article class="container">
 
 
-	        <h1 class="text-center no-space-bottom" id="about">Just the Essentials</h1>
-            <h5 class="text-center">Kraken-Sass is essentially just a conversion of Kraken</h5>
+	        <h1 class="text-center space-bottom-small" id="about">Just the Essentials</h1>
             <p class="text-muted text-center">Designed to be lightweight and style agnostic, Kraken includes just the essentials.</p>
-            <h3 class="text-center">With Kraken-Sass You Have the added power of Sass.</h3>
-	        <p class="text-muted text-center">Every Css .class in Kraken has a corresponding %placeholder in Kraken-Sass. This way you can @extend any Kraken class in your Scss!</p>
+            <h2 class="text-center"><i class="icon-docs"></i> With Kraken-Sass You Have the added power of Sass.</h2>
+            <h3 class="text-center small-space-bottom">Kraken-Sass is a conversion of Kraken to Scss with some extra sauce.</h3>
+
+            <hr>
 
             <div class="row text-center">
                 <div class="grid-2">
@@ -97,7 +98,22 @@
             </div>
 
 	        <hr>
+                <h2>@extend Power</h2>
 
+                <p class="text-left">Every Css <code class="language-scss">.class</code> in Kraken has a corresponding <code class="language-scss">%placeholder</code> in Kraken-Sass.</p>
+                <p>This way you can <code class="language-scss">@extend</code> any Kraken class in your Scss!</p>
+
+                <h2>Kraken Modules</h2>
+
+                <p>The Settings for all the Kraken core modules above are inside of <code class="language-markup">_config.scss</code> in the <code class="language-markup">/lib</code> dir. You can adjust the settings for all the Kraken modules including most of the add-ons (more add-ons settings coming soon...) </p>
+
+                <p>All the different parts of Kraken have been converted to _partials inside of <code class="language-markup">/lib</code>. You can easily adjust what you import from Kraken.scss.</p>
+
+                <h2>Kraken Add-ons</h2>
+
+                <p>Most of the addons are included in the <code class="language-markup">/addons</code> dir. You can easily adjust which addons you import from Kraken.scss. All of the _partials for the add-ons that are available, are included in the <code class="language-markup">/scss/addons</code> dir.</p>
+
+            <hr>
 
 	        <h1 class="text-center" id="get-started">Getting Started</h1>
 
@@ -149,7 +165,6 @@
             <ul>
                         <li><a href="https://github.com/PendragonDevelopment/krakenrails">Kraken for Rails</a> by <a href="http://www.jordankburke.com/">Jordan Burke</a></li>
                         <li><a href="http://cferdinandi.github.com/kraken-for-wordpress/">Kraken for WordPress</a> by <a href="http://gomakethings.com/">Chris Ferdinandi</a></li>
-                        <li><span class="text-muted">Kraken for Sass (<em>coming soon...</em>) by <a href="http://webcatseo.com/">Jupiter St. John</a></span></li>
             </ul>
 
             <hr>
@@ -194,12 +209,15 @@
 
             <p class="text-small text-muted text-center">Built by <a href="http://gomakethings.com">Chris Ferdinandi</a>. Free to use under the <a href="http://gomakethings.com/mit/">MIT License</a>.</p>
 
+            <p class="text-small text-muted text-center">converted to Scss by <a href="http://www.twitter.com/jwebcat">@jwebcat</a></p>
+
         </article>
 	</footer>
 
 
     <!-- Javascript -->
-    <script type='text/javascript' src='js/kraken.js'></script>
+    <script type='text/javascript' src='js/min/kraken.min.js'></script>
+    <script type='text/javascript' src='js/min/prism.min.js'></script>
 
 </body>
 </html>

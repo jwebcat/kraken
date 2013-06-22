@@ -1,0 +1,20 @@
+section {
+    @include row();
+        > div {
+            @include grid(3);
+        }
+}
+
+div div {
+    @include row();    //  these grids are nested
+        &:first-of-type(1) {
+            > div {
+                @include grid(2);
+            }
+        }
+        &:first-of-type(2) {
+            > div {
+                @include grid(3);
+            }
+        }
+}

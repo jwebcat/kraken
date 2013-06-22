@@ -1,0 +1,16 @@
+.item-holder {
+    @include row();
+        .item {
+            &:nth-of-type(1) {
+                @include grid(4);
+                @include offset(2); //  both grid() and offset() have to = 6
+            }
+            &:nth-of-type(2) {
+                @include grid(1);
+            }
+            &:nth-of-type(3) {
+                @include grid(3);
+                @include offset(1);
+            }
+        }
+}

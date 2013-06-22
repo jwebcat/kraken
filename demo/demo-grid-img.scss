@@ -1,0 +1,6 @@
+section {
+    @include row();
+        div {
+            @extend %grid-img;
+        }
+}
