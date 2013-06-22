@@ -5,7 +5,7 @@
     <title>Forms | The Kraken Boilerplate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- stylesheets -->
-    <link rel="stylesheet" href="kraken.css" type="text/css" />
+    <link rel="stylesheet" href="css/s.css" type="text/css" />
 
     <!-- HTML5 Shim for IE 6-8 -->
     <!--[if lt IE 9]>
@@ -30,8 +30,8 @@
 	<section class="space-bottom bg-gray">
 	    <article class="container">
 
-            <h1 class="text-taller no-space text-center"><i class="icon-logo"></i> Kraken</h1>
-            <p class="text-center space-bottom-small"><a href="index.html">&larr; Kraken Home</a></p>
+            <h1 class="text-taller no-space text-center"><i class="icon-logo"></i> Kraken-Sass</h1>
+            <p class="text-center space-bottom-small"><a href="index.html">&larr; Kraken-Sass Home</a></p>
 
         </article>
     </section>
@@ -71,34 +71,11 @@
                 <textarea></textarea>
 	        </form>
 
-	        <pre>&lt;form&gt;
-    &lt;label&gt;Label&lt;/label&gt;
-    &lt;input type="text"&gt;
-    &lt;label&gt;
-        &lt;input type="checkbox"&gt;
-        Option 1
-    &lt;/label&gt;
-    &lt;label&gt;
-        &lt;input type="checkbox"&gt;
-        Option 2
-    &lt;/label&gt;
-    &lt;label&gt;
-        &lt;input type="radio" name="radioset"&gt;
-        Option 1
-    &lt;/label&gt;
-    &lt;label&gt;
-        &lt;input type="radio" name="radioset"&gt;
-        Option 2
-    &lt;/label&gt;
-    &lt;select&gt;
-        &lt;option&gt;Select 1&lt;/option&gt;
-        &lt;option&gt;Select 2&lt;/option&gt;
-        &lt;option&gt;Select 3&lt;/option&gt;
-    &lt;/select&gt;
-    &lt;textarea&gt;&lt;/textarea&gt;
-&lt;/form&gt;</pre>
+	        <pre class="line-numbers" data-src="demo/demo-form.html">
+                <code></code>
+            </pre>
 
-	        <p><strong>Pro Tip:</strong> Wrap checkboxes and radio buttons inside a <code>&lt;label&gt;&lt;/label&gt;</code> to make them easier to click.</p>
+	        <p class="space-top"><strong>Pro Tip:</strong> Wrap checkboxes and radio buttons inside a <code class="language-markup">&lt;label&gt;&lt;/label&gt;</code> to make them easier to click.</p>
 
 
 	        <h2 class="text-center">Form Layouts</h2>
@@ -129,44 +106,29 @@
 	            </div>
 	        </form>
 
-	        <pre>&lt;form&gt;
-    &lt;div class="row"&gt;
-        &lt;div class="grid-2"&gt;
-            &lt;label&gt;Name&lt;/label&gt;
-        &lt;/div&gt;
-        &lt;div class="grid-4"&gt;
-            &lt;input type="text"&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="row"&gt;
-        &lt;div class="grid-2"&gt;
-            &lt;label&gt;Message&lt;/label&gt;
-        &lt;/div&gt;
-        &lt;div class="grid-4"&gt;
-            &lt;textarea&gt;&lt;/textarea&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="row"&gt;
-        &lt;div class="grid-4 offset-2"&gt;
-            &lt;button class="btn btn-blue"&gt;Submit&lt;/button&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/form&gt;</pre>
+	        <pre class="line-numbers" data-src="demo/demo-form-2.html">
+                <code></code>
+            </pre>
 
 
             <h2 class="text-center">New: Condensed & Inline Inputs</h2>
 
-            <p>For smaller forms, add the <code>.input-condensed</code> class to your input fields. For inline form elements, add the <code>.input-inline</code> class.</p>
+            <p>For smaller forms, add the <code class="language-scss">.input-condensed</code> class to your input fields. For inline form elements, add the <code class="language-scss">.input-inline</code> class.</p>
 
             <form>
                 <input type="text" value=".input-inline" class="input-inline">
-                <input type="text" value=".input-condesed" class="input-condensed input-inline">
+                <input type="text" value=".input-condensed" class="input-condensed input-inline">
             </form>
 
-            <pre>&lt;form&gt;
-    &lt;input type="text" value=".input-inline" class="input-inline"&gt;
-    &lt;input type="text" value=".input-condensed" class="input-condensed input-inline"&gt;
-&lt;/form&gt;</pre>
+            <pre class="line-numbers" data-src="demo/demo-form-condensed.html">
+                <code></code>
+            </pre>
+
+            <h2 class="text-center">With Scss @extends</h2>
+
+            <pre class="line-numbers" data-src="demo/demo-form-condensed.scss">
+                <code></code>
+            </pre>
 
             <hr>
 
@@ -218,12 +180,15 @@
 
             <p class="text-small text-muted text-center">Built by <a href="http://gomakethings.com">Chris Ferdinandi</a>. Free to use under the <a href="http://gomakethings.com/mit/">MIT License</a>.</p>
 
+            <p class="text-small text-muted text-center">Converted to Scss by <a href="http://www.twitter.com/jwebcat">@jwebcat</a></p>
+
         </article>
 	</footer>
 
 
     <!-- Javascript -->
-    <script type='text/javascript' src='js/kraken.js'></script>
+    <script type='text/javascript' src='js/min/kraken.min.js'></script>
+    <script type='text/javascript' src='js/min/prism.min.js'></script>
 
 </body>
 </html>

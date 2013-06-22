@@ -1,0 +1,22 @@
+button {
+    &:nth-of-type(1) {
+        @extend %btn;
+    }
+    &:nth-of-type() {
+        @extend %btn;
+        @extend %btn-blue;
+    }
+    &:nth-of-type() {
+        @extend %btn;
+        @extend %btn-large;
+    }
+    &:nth-of-type() {
+        @extend %btn;
+        @extend %btn-blue;
+        @extend %btn-block;
+    }
+    &:nth-of-type() {
+        @extend %btn;
+        @extend %btn-block;
+    }
+}

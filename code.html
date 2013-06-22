@@ -5,7 +5,7 @@
     <title>Code | The Kraken Boilerplate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- stylesheets -->
-    <link rel="stylesheet" href="kraken.css" type="text/css" />
+    <link rel="stylesheet" href="css/s.css" type="text/css" />
 
     <!-- HTML5 Shim for IE 6-8 -->
     <!--[if lt IE 9]>
@@ -30,8 +30,8 @@
 	<section class="space-bottom bg-gray">
 	    <article class="container">
 
-            <h1 class="text-taller no-space text-center"><i class="icon-logo"></i> Kraken</h1>
-            <p class="text-center space-bottom-small"><a href="index.html">&larr; Kraken Home</a></p>
+            <h1 class="text-taller no-space text-center"><i class="icon-logo"></i> Kraken-Sass</h1>
+            <p class="text-center space-bottom-small"><a href="index.html">&larr; Kraken-Sass Home</a></p>
 
         </article>
     </section>
@@ -42,25 +42,23 @@
 
 	        <h1 class="text-center">Code</h1>
 
-	        <p>Here's some code that's within a sentence: the <code>.js</code> file is very important.</p>
+	        <p>Here's some code that's within a sentence: the <code class="language-markup">.js</code> file is very important.</p>
 
             <p>Here's some preformatted text:</p>
-            
-	        <pre>.js {
+
+	        <pre class="language-scss line-numbers"><code>.js {
     color: #272727;
     background: #ffffff;
-}</pre>
+}</code></pre>
 
-            <pre>&lt;p&gt;Here's some code that's within a sentence: the &lt;code&gt;.js&lt;/code&gt; file is very important.&lt;/p&gt;
+            <h2 class="text-center">Or you can include whole files like this:</h2>
+            <p>using <code class="language-markup">data-src="file-name.html"</code> and <code class="language-markup">class="line-numbers"</code> if you want line numbers (line numbers only for blocks of code not inline code.)</p>
 
-&lt;p&gt;Here's some preformatted text:&lt;/p&gt;
+            <pre class="line-numbers" data-src="demo/demo-code.html">
+                <code></code>
+            </pre>
 
-&lt;pre&gt;.js {
-    color: #272727;
-    background: #ffffff;
-}&lt;/pre&gt;</pre>
-
-            <p><strong>Note:</strong> You'll need to escape brackets contained in code by typing <code>&amp;lt;</code> for <code>&lt;</code> and <code>&amp;gt;</code> for <code>&gt;</code>.
+            <p><strong>Note:</strong> You'll need to escape brackets contained in code by typing <code class="language-markup">&amp;lt;</code> for <code class="language-markup">&lt;</code> and <code class="language-markup">&amp;gt;</code> for <code class="language-markup">&gt;</code>.
 
             <hr>
 
@@ -112,12 +110,15 @@
 
             <p class="text-small text-muted text-center">Built by <a href="http://gomakethings.com">Chris Ferdinandi</a>. Free to use under the <a href="http://gomakethings.com/mit/">MIT License</a>.</p>
 
+            <p class="text-small text-muted text-center">Converted to Scss by <a href="http://www.twitter.com/jwebcat">@jwebcat</a></p>
+
         </article>
 	</footer>
 
 
     <!-- Javascript -->
-    <script type='text/javascript' src='js/kraken.js'></script>
+    <script type='text/javascript' src='js/min/kraken.min.js'></script>
+    <script type='text/javascript' src='js/min/prism.min.js'></script>
 
 </body>
 </html>

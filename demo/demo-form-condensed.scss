@@ -1,0 +1,11 @@
+form {
+    input {
+        &:nth-of-type(1) {
+            @extend %input-inline;
+        }
+        &:nth-of-type(2) {
+            @extend %input-condensed;
+            @extend %input-inline;
+        }
+    }
+}
