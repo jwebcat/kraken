@@ -2,7 +2,7 @@
 /*  Sets font styles for entire site. */
 
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: $body-font-family;
     font-size: $body-font-size;
     line-height: $body-line-height;
     color: $black;
